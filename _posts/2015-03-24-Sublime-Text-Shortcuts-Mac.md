@@ -15,8 +15,8 @@ Sublime Text快捷键一览表(Mac)
 |⌘ + ⇧ + ↩		 |Insert line before|
 |⌘ + ⌃ + ↑		 |Move line/selection up|
 |⌘ + ⌃ + ↓       |Move line/selection down|
-|⌘ + D           |Select line - Repeat to select next lines|
-|⌘ + L           |Select word - Repeat to select next occurrence|
+|⌘ + D           |Select word - Repeat to select next occurrence|
+|⌘ + L           |Select line - Repeat to select next lines|
 |⌃ + ⌘ + G       |Select all occurrences of current selection|
 |⌃ + ⇧ + ↑       |Extra cursor on the line above|
 |⌃ + ⇧ + ↓       |Extra cursor on the line below|
