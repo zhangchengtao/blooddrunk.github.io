@@ -8,4 +8,4 @@ permalink: /about/
 
 ### Contact me
 
-[jelinenaro@gmail.com](jelinenaro@gmail)
+[jelinenaro@gmail.com](mailto:{{ site.footer-links.email }})
