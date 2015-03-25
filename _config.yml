@@ -41,6 +41,9 @@ duoshuo: blooddrunk
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-60613671-1
 
+# site visits counts
+counter: 3187136
+
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://blog.ryderxie.com
@@ -74,10 +77,21 @@ gems:
 
 # Exclude these files from your production _site
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
 
 # Add Pagination
 paginate: 10
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # The different types that are available to you are pages, posts, drafts or any collection in your site.
+    values:
+      layout: "post"
+
+
